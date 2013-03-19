@@ -1,0 +1,14 @@
+{
+  "name": "Ophan Page Info (Tab)",
+  "description": "Display Ophan information about a page.",
+  "version": "1.0",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs"
+  ],
+  "page_action": {
+    "default_icon": "ophan.ico",
+    "default_title" : "View in Ophan (new tab)"
+  },
+  "manifest_version": 2
+}
